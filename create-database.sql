@@ -1,0 +1,6 @@
+CREATE DATABASE teacollector;
+
+CREATE USER tea_admin WITH PASSWORD '123123';
+
+GRANT ALL PRIVILEGES ON DATABASE teacollector TO tea_admin;
+
